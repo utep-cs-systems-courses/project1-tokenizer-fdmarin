@@ -104,7 +104,7 @@ int count_words(char* str){
 
     }
 
-    else if (curr_state == out_coount){
+    else if (curr_state == out_count){
       curr_state = in_count;
 
       count++;
